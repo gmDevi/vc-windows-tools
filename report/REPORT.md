@@ -77,7 +77,7 @@ which the fitter's own notes describe as normal). A sweep of the outer 20
 windings through the flat model over a 4.7 mm band found no letter-like
 structure (see `batch.log` in the results directory). Radial sheet counts
 give roughly 60-90 windings for this scroll, so the Scroll 1 default of 130
-was too high; a 30,000-step fit with 90 windings is the next run.
+was too high. A 30,000-step fit with 90 windings (track-radius loss 123 vs 182 at 10,000 steps with 130) renders clean continuous sheets, e.g. winding w089 over rows 20-60 (`pherc0125_w089_render.png`, 8 mm x 41 mm); its ink map is empty (`pherc0125_w089_ink.png`). The sweep of every third winding of that mesh is in `results/p0125_batch_acw30k`.
 
 The negatives are consistent with the organizers' statement that ink remains
 elusive in the new scans with current models. What the toolkit adds is that a

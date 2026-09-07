@@ -1,0 +1,32 @@
+PHerc0268 blocks: [(2560, 2432, 3968), (2560, 4864, 10112), (2560, 7808, 3840), (10752, 2816, 3712), (10752, 6144, 10240), (10752, 9728, 3456)]
+sheet seed x=463: coverage 0.85
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y2432_x3968\sheet0_x499.zarr coverage 0.49
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y2432_x3968\sheet1_x533.zarr coverage 0.48
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y2432_x3968\sheet2_x519.zarr coverage 0.49
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y2432_x3968\sheet3_x463.zarr coverage 0.85 
+PHerc0268_z2560_y2432_x3968: 8 renders, best letter-like blobs=0, 677s
+heet seed x=36: coverage 0.67
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y4864_x10112\sheet0_x86.zarr coverage 0.71
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y4864_x10112\sheet1_x771.zarr coverage 0.86
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y4864_x10112\sheet2_x502.zarr coverage 0.84
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y4864_x10112\sheet3_x36.zarr coverage 0.67 
+PHerc0268_z2560_y4864_x10112: 8 renders, best letter-like blobs=0, 945s
+0
+sheet seed x=279: coverage 0.45
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y7808_x3840\sheet0_x492.zarr coverage 0.46
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y7808_x3840\sheet1_x306.zarr coverage 0.47
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y7808_x3840\sheet2_x99.zarr coverage 0.4
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z2560_y7808_x3840\sheet3_x279.zarr coverage 0.45 
+PHerc0268_z2560_y7808_x3840: 8 renders, best letter-like blobs=1, 904s
+et seed x=143: coverage 0.60
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y2816_x3712\sheet0_x561.zarr coverage 0.61
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y2816_x3712\sheet1_x727.zarr coverage 0.56
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y2816_x3712\sheet2_x551.zarr coverage 0.61
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y2816_x3712\sheet3_x143.zarr coverage 0.6 
+PHerc0268_z10752_y2816_x3712: 8 renders, best letter-like blobs=1, 727s
+ed x=492: coverage 0.87
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y6144_x10240\sheet0_x169.zarr coverage 0.78
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y6144_x10240\sheet1_x772.zarr coverage 0.86
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y6144_x10240\sheet2_x409.zarr coverage 0.82
+wrote C:/Users/mdevi/prize/vesuvius/preds/sweep_PHerc0268\PHerc0268_z10752_y6144_x10240\sheet3_x492.zarr coverage 0.87 
+PHerc0268_z10752_y6144_x10240: 8 renders, best letter-like blobs=0, 1008s

@@ -14,7 +14,7 @@ Then, from `prize/vesuvius/vc-windows-tools`:
 gh repo create vc-windows-tools --public --source . --remote origin --description "Single-GPU, Windows-native ink search for the Vesuvius Challenge" --push
 ```
 
-The repository URL that prints goes into `report/SUBMISSION.md` (Links line) and
+Repository: https://github.com/gmDevi/vc-windows-tools (done). The URL is in `report/SUBMISSION.md` (Links line) and
 into the form.
 
 ## 2. Discord

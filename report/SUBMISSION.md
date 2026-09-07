@@ -11,7 +11,7 @@ coding assistant (Claude) used for implementation.
 
 **Discord display name.** (fill after joining https://discord.gg/V4fJhvtaQn)
 
-**URL of your open source contribution.** https://github.com/<user>/vc-windows-tools
+**URL of your open source contribution.** https://github.com/gmDevi/vc-windows-tools
 (MIT license; commits, results, and figures included)
 
 **What is your contribution?**

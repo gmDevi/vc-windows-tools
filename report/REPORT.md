@@ -100,6 +100,12 @@ For calibration, the Paris 4 control crop with clear letters has frac>200 = 0.01
 
 All negative. Previews (`*_ink.png`) and per-render JSON scores are kept for every unit.
 
+Caveat on the blob score: it is triage only. Where a fitted winding leaves the papyrus or skims a sheet edge-on, the flat model produces coarse
+high-contrast clusters that score as "letter-sized blobs" (e.g. PHerc0826 winding w090: 38 blobs, frac>200 0.011, visually a garbled render).
+`tools/rescore.py` removes blobs on mask boundaries and untextured fill, but garbled-yet-textured renders still pass, so every hit above the
+speckle ceiling was inspected by eye against its render; none showed strokes or rows.
+
+
 ## 5. Reproduce
 
 See the top-level README for the environment. The exact commands used for

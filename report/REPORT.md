@@ -94,7 +94,7 @@ For calibration, the Paris 4 control crop with clear letters has frac>200 = 0.01
 |---|---|---|---|
 | PHerc1203, 9.36 um, height-field sheets, 4 outer-winding blocks | 32 renders | 2 | 0.0023 |
 | PHerc0125, 10k-step spiral mesh, windings w091-w129 (every 2nd), rows 25-50 (4.7 mm band) | 40 renders | 17 (speckle) | 0.0044 |
-| PHerc0268, 8.64 um, height-field sheets, 5 outer-winding blocks | 40 renders | 1 | 0.0008 |
+| PHerc0268, 8.64 um, height-field sheets, 6 outer-winding blocks at two heights | 48 renders | 1 | 0.0008 |
 | PHerc0800 + PHerc1447, 21 published auto-grown segments | 42 renders | 2 | 0.0197 (edge artefacts) |
 
 All negative. Previews (`*_ink.png`) and per-render JSON scores are kept for every unit.

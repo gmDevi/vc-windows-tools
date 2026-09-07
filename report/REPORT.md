@@ -84,6 +84,21 @@ elusive in the new scans with current models. What the toolkit adds is that a
 single-GPU contributor can now falsify or confirm that for any block of any
 eligible scroll in minutes, and sweep unattended.
 
+
+### 4.1 Sweep scoreboards (flat 9 um model, both layer directions)
+
+Score = letter-sized bright blobs (400-30000 px above 200/255) and the fraction of pixels above 200.
+For calibration, the Paris 4 control crop with clear letters has frac>200 = 0.0112; speckle noise gives up to ~0.004.
+
+| Target | Units | Best blobs | Max frac>200 |
+|---|---|---|---|
+| PHerc1203, 9.36 um, height-field sheets, 4 outer-winding blocks | 32 renders | 2 | 0.0023 |
+| PHerc0125, 10k-step spiral mesh, windings w091-w129 (every 2nd), rows 25-50 (4.7 mm band) | 40 renders | 17 (speckle) | 0.0044 |
+| PHerc0268, 8.64 um, height-field sheets, 5 outer-winding blocks | 40 renders | 1 | 0.0008 |
+| PHerc0800 + PHerc1447, 21 published auto-grown segments | 42 renders | 2 | 0.0197 (edge artefacts) |
+
+All negative. Previews (`*_ink.png`) and per-render JSON scores are kept for every unit.
+
 ## 5. Reproduce
 
 See the top-level README for the environment. The exact commands used for

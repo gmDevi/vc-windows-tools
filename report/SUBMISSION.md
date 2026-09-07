@@ -1,36 +1,63 @@
-# Progress Prize submission text (draft for the form)
+# September 2026 Progress Prize form: prepared answers
 
-**Title.** vc-windows-tools: single-GPU, Windows-native ink search from published data products
+Form: https://docs.google.com/forms/d/e/1FAIpQLScNBMj25FMnphngRG1Ciryv_2_Mkdq2YPJOD9WqPfZExII2iQ/viewform
 
-**Open problem addressed.** Data infrastructure and cloud workflows (2026 open
-problems): terabyte volumes, tiled inference, reproducibility for contributors
-without a Linux cluster. Secondary: makes the official spiral fitter usable
-under WSL2 with a documented headless recipe.
+**Email.** mdevincenzis@gmail.com
 
-**What it does.** From the organizers' public CT volumes and surface
-predictions on S3, with no local copy of a volume, it fetches only the chunks a
-sheet touches, renders 21- or 62-layer face-on sheet stacks (four renderers:
-height fields from surface predictions for 9 um and 2.4 um data, and tifxyz
-windings from a fitted spiral), runs the published ink models (flat 9 um,
-canonical 2 um, full-3D DINO-guided, DINO ink-likeness), scores the maps, and
-sweeps a whole scroll or a whole fitted mesh unattended. One command reproduces
-a block-to-ink-map run.
+**Your full name.** Marco De Vincenzi
 
-**Validation.** Reproduces the official ink map of Paris 4 segment
-20231016151002 with the flat model; the canonical 2 um model through the
-height-field renderer fires on 40% of a Paris 4 sheet at a training-config
-coordinate.
+**Team description.** Individual submission (Marco De Vincenzi), with an AI
+coding assistant (Claude) used for implementation.
 
-**Results on eligible scrolls.** Negative but systematic: PHerc1203 (2.4 um)
-with three detectors that all fire on Paris 4; PHerc0125 (spiral fit, ~40
-windings swept over a 5-8 mm band); PHerc0268 (6 outer-winding blocks). All
-scores, previews and logs are in the repository's results folder. Radial sheet
-counts give winding-count estimates for the track-ready scrolls, needed to
-configure the fitter (Scroll 1's 130 is wrong for PHerc0125, ~60-90).
+**Discord display name.** (fill after joining https://discord.gg/V4fJhvtaQn)
 
-**Why it helps others.** A contributor with one consumer GPU and Windows can
-now test any model on any block of any eligible scroll in minutes, and leave a
-sweep running overnight. Every step is a small script with a documented CLI;
-formats are the standard OME-Zarr and tifxyz.
+**URL of your open source contribution.** https://github.com/<user>/vc-windows-tools
+(MIT license; commits, results, and figures included)
 
-**Links.** GitHub: (to be filled after push). License: MIT. Discord handle: (fill).
+**What is your contribution?**
+
+(1) Scroll data: the 2025-2026 eligible scrolls, mainly PHerc1203 (2.4 um and
+9.36 um scans), PHerc0125 (9.36 um), PHerc0268 (8.64 um), plus the published
+auto-grown segments of PHerc0800 and PHerc1447; Paris 4 was used as the
+positive control.
+
+(2) How it raises the probability of reading these scrolls: it removes the
+infrastructure barrier for single-GPU contributors. From the organizers'
+public CT volumes and surface predictions, with no local copy of any volume,
+the toolkit fetches only the chunks a sheet touches, renders 21- or 62-layer
+face-on sheet stacks (four renderers: height fields grown from the surface
+predictions at 9 um and 2.4 um, big axis-aligned boxes, tilted sheets without
+rotating the volume, and tifxyz windings from a fitted spiral), runs the
+published ink models (flat 9 um, canonical 2 um, full-3D DINO-guided, DINO
+ink-likeness), scores the maps, and sweeps a whole scroll or a whole fitted
+mesh unattended. It also makes the official spiral fitter usable under WSL2
+on Windows with a headless one-line recipe, documents two config traps that
+silently produce empty meshes (tracks off by default; the outer-shell input
+pulled in when tracks are enabled), and ships a renderer that turns fitted
+windings into ink maps from streamed S3 chunks in minutes. More people can
+therefore test more models on more sheets of more scrolls, which is how the
+first letters in a new scroll will be found.
+
+(3) What it enables that was not possible before: a Windows machine with one
+consumer GPU and under 100 GB of free disk can go from "pick a scroll and a
+location" to an ink map in minutes, sweep hundreds of square centimetres
+overnight, and run the official spiral fitter, none of which the current
+tooling supports without Linux, a C++ toolchain, and terabytes of storage.
+It also provides winding-count estimates for the eight track-ready scrolls
+(the fitter's Scroll 1 default of 130 is wrong for them; PHerc0125 has about
+60, PHerc0826 about 55).
+
+(4) Evidence: the flat model through the toolkit reproduces the organizers'
+ink map of Paris 4 segment 20231016151002 (figure in the repo); the canonical
+2 um model through the height-field renderer fires on 40% of a Paris 4 sheet
+at a coordinate from its own training config; the fitted PHerc0125 mesh
+renders clean continuous sheets (figure). Every sweep run is logged with
+per-render JSON scores and PNG previews in `results/`: PHerc1203 (2.4 um,
+three detectors, ~1 cm^2 of clean sheets), PHerc1203 9 um blocks, PHerc0125
+(two spiral meshes, 40+ windings over 5-8 mm bands), PHerc0268 (6 blocks), and
+the 21 published PHerc0800/PHerc1447 segments. All negative, which is itself
+useful: it is the first systematic single-machine falsification of the
+current models on these scrolls, with a calibrated noise ceiling (frac>200 of
+0.004 for speckle vs 0.011 for real letters).
+
+**Terms and Conditions.** Yes, I agree.

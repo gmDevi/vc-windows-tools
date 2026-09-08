@@ -8,7 +8,8 @@ JOB = dict(
     umbilicus_url="https://raw.githubusercontent.com/gmDevi/vc-windows-tools/master/results/umbilici/PHerc0191_est.json",
     tag="cw30k_w100",
 )
-HOME = os.path.expanduser("~"); WORK = "/kaggle/working"; TMP = "/kaggle/tmp"; os.makedirs(TMP, exist_ok=True)
+if os.environ.get("FIT_JOB"): JOB.update(json.loads(os.environ["FIT_JOB"]))      # Colab / any pod: override the job from the environment
+HOME = os.path.expanduser("~"); WORK = os.environ.get("FIT_WORK", "/kaggle/working"); TMP = os.environ.get("FIT_TMP", "/kaggle/tmp"); os.makedirs(TMP, exist_ok=True); os.makedirs(WORK, exist_ok=True)
 def sh(cmd, **kw):
     print(f"$ {cmd}", flush=True); t = time.time()
     r = subprocess.run(cmd, shell=True, executable="/bin/bash", **kw)

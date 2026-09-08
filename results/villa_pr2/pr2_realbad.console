@@ -1,0 +1,111 @@
+overrides: {"z_begin": 9000, "z_end": 10500, "optimizer_num_training_steps": 300, "input_disable_patches": true, "loss_weight_shell_outer": 0, "loss_weight_shell_patch_radius": 0, "dense_spacing_mode": "grad_mag", "loss_weight_dense_spacing": 0 , "input_use_tracks": true, "input_use_outer_shell": false}
+PROGRESS Loading umbilicus — elapsed 0s
+PROGRESS Loading fiber direction samples — elapsed 0s
+PROGRESS Loading point collections — 0/3 inputs (0.0%) — elapsed 0s
+PROGRESS Loading fiber point collections — elapsed 0s
+PROGRESS Linking points to patches — 0 collections, 0 patches — elapsed 0s
+scaled per-step counts by 0.158 for the 1500-slice z-range [9000, 10500) (reference 9500 slices):
+  sample_count_patches_per_step=57
+  sample_count_patches_per_step_for_dt=38
+  sample_count_unverified_patches_per_step=19
+  sample_count_unverified_patches_per_step_for_dt=13
+  sample_count_relative_winding_pcls=8
+  sample_count_absolute_winding_pcls=8
+  sample_count_unattached_pcls_per_step=13
+  sample_count_tracks_per_step=7579
+  sample_count_dense_normal_points=9474
+  sample_count_fiber_direction_points=9474
+  sample_count_dense_spacing_pairs=8000
+  sample_count_dense_spacing_density_extra_pairs=16000
+  sample_count_winding_model_relative_pairs=20211
+  sample_count_winding_model_density_pairs=20211
+  sample_count_dense_attachment_points=3158
+  sample_count_regularisation_points=711
+  sample_count_shell_samples=3880
+skipping all verified/unverified patch loading
+ loaded 0 patches
+ loaded 0 unverified patches
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/relative_windings.json
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/same_windings.json
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/drawn_control_points.json
+no fiber point collections found in /home/mdevi/spiral_data/PHerc0125/fibers
+linking points to patches: 0it [00:00, ?it/s]linking points to patches: 0it [00:00, ?it/s]
+PROGRESS Resolving track store — PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm — elapsed 0s
+PROGRESS Loading tracks — 0/2,429 DB keys (0.0%) — elapsed 0s
+PROGRESS Loading tracks — 440/2,429 DB keys (18.1%) — elapsed 5s — ETA 23s
+PROGRESS Loading tracks — 861/2,429 DB keys (35.4%) — elapsed 10s — ETA 18s
+PROGRESS Loading tracks — 1,240/2,429 DB keys (51.0%) — elapsed 15s — ETA 14s
+PROGRESS Loading tracks — 1,610/2,429 DB keys (66.3%) — elapsed 20s — ETA 10s
+PROGRESS Loading tracks — 1,784/2,429 DB keys (73.4%) — elapsed 25s — ETA 9s
+PROGRESS Loading tracks — 1,868/2,429 DB keys (76.9%) — elapsed 30s — ETA 9s
+PROGRESS Loading tracks — 1,950/2,429 DB keys (80.3%) — elapsed 35s — ETA 9s
+PROGRESS Loading tracks — 2,077/2,429 DB keys (85.5%) — elapsed 40s — ETA 7s
+PROGRESS Loading tracks — 2,262/2,429 DB keys (93.1%) — elapsed 45s — ETA 3s
+PROGRESS Loading tracks — 2,303/2,429 DB keys (94.8%) — elapsed 50s — ETA 3s
+PROGRESS Loading tracks — 2,344/2,429 DB keys (96.5%) — elapsed 55s — ETA 2s
+PROGRESS Preparing patch sampling — elapsed 0s
+PROGRESS Loading normal volumes onto GPU — elapsed 0s
+fiber links: 0 resolved
+pcls: 0 cross-patch, 0 unattached
+  cross-patch sampling groups: 
+  unattached sampling groups: 
+loading tracks from /home/mdevi/spiral_data/PHerc0125/tracks/PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm
+WARNING: ignoring invalid track crossing cache /home/mdevi/spiral_data/PHerc0125/tracks/PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm.crossings.npz: File is not a zip file
+WARNING: ignoring packed track store: source DBM changed after the packed store was written
+loaded 1473671 tracks within z-roi [9000, 10500)
+fitting 0 patches
+loading lasagna resident pools, group 2
+lasagna normals: resident pool 13,036/16,946 bricks of (32, 32, 32) x2 channel(s) (0.80 GiB) loaded in 0.8s from las_008_nx.ome.zarr.respool_g2_pair
+PROGRESS Constructing spiral model — elapsed 0s
+PROGRESS Creating optimizer — elapsed 0s
+PROGRESS Synchronizing model across GPU workers — elapsed 0s
+PROGRESS Preparing tracks for optimization — 1,473,671 tracks — elapsed 0s
+PROGRESS Optimizing — 0/300 iterations (0.0%) — elapsed 0s
+PROGRESS Optimizing — 14/300 iterations (4.7%) — 2.7 it/s — elapsed 5s — ETA 1m 47s
+PROGRESS Optimizing — 30/300 iterations (10.0%) — 2.9 it/s — elapsed 10s — ETA 1m 33s
+PROGRESS Optimizing — 46/300 iterations (15.3%) — 3.0 it/s — elapsed 15s — ETA 1m 25s
+PROGRESS Optimizing — 62/300 iterations (20.7%) — 3.0 it/s — elapsed 20s — ETA 1m 18s
+PROGRESS Optimizing — 78/300 iterations (26.0%) — 3.1 it/s — elapsed 26s — ETA 1m 13s
+PROGRESS Optimizing — 94/300 iterations (31.3%) — 3.1 it/s — elapsed 31s — ETA 1m 07s
+PROGRESS Optimizing — 110/300 iterations (36.7%) — 3.1 it/s — elapsed 36s — ETA 1m 02s
+PROGRESS Optimizing — 126/300 iterations (42.0%) — 3.1 it/s — elapsed 41s — ETA 57s
+PROGRESS Optimizing — 142/300 iterations (47.3%) — 3.1 it/s — elapsed 46s — ETA 52s
+PROGRESS Optimizing — 158/300 iterations (52.7%) — 3.1 it/s — elapsed 51s — ETA 46s
+PROGRESS Optimizing — 174/300 iterations (58.0%) — 3.1 it/s — elapsed 57s — ETA 41s
+PROGRESS Optimizing — 199/300 iterations (66.3%) — 3.2 it/s — elapsed 1m 02s — ETA 31s
+PROGRESS Optimizing — 215/300 iterations (71.7%) — 3.2 it/s — elapsed 1m 07s — ETA 26s
+PROGRESS Optimizing — 231/300 iterations (77.0%) — 3.2 it/s — elapsed 1m 12s — ETA 22s
+PROGRESS Optimizing — 247/300 iterations (82.3%) — 3.2 it/s — elapsed 1m 17s — ETA 17s
+PROGRESS Optimizing — 263/300 iterations (87.7%) — 3.2 it/s — elapsed 1m 22s — ETA 12s
+PROGRESS Optimizing — 279/300 iterations (93.0%) — 3.2 it/s — elapsed 1m 28s — ETA 7s
+PROGRESS Optimizing — 295/300 iterations (98.3%) — 3.2 it/s — elapsed 1m 33s — ETA 2s
+PROGRESS Saving final checkpoint — checkpoint_fitted.ckpt — elapsed 0s
+PROGRESS Computing satisfaction metrics and outputs — elapsed 0s
+PROGRESS Evaluating verified patches — 0 patches — elapsed 0s
+PROGRESS Evaluating tracks — 1,473,671 tracks — elapsed 0s
+PROGRESS Transforming final mesh — 0/60 chunks (0.0%) — elapsed 0s
+PROGRESS Writing final mesh windings — 0/260 windings (0.0%) — elapsed 0s
+PROGRESS Writing final mesh windings — 260/260 windings (100.0%) — elapsed 1s — ETA 0s
+no outer-shell losses; using configured shell_outer_winding_idx = 130 for the dense and regularisation losses
+removing tracks near patches
+kept 1473671 / 1473671 tracks
+track radius loss: 1473671/1473671 tracks survive exclusion (radius 16.0); 79967624 points retained
+track crossings: indexing 79967624 points from 1473671 tracks (all partners)
+track crossings: 3734490 exact crossing events, 1024763/1473671 tracks have partners, 7468690 directed partner records retained (native in-memory fallback)
+track crossing index: 1024763/1473671 tracks connected, 7468690 directed crossings, 102.3 MiB
+track length bins: short <= 33.5 (491349), medium <= 83.7 (491122), long (491200); effective weights [0.0, 0.15, 0.85]
+theta topology ready (0.0s, peak RSS 6.48 GiB)
+trainable parameters: 112,207,622 (448.8 MB) - gradient volume all-reduced every step in distributed mode
+WARNING: loss_weight_dense_spacing_density > 0 but dense_spacing_mode='grad_mag'; this component runs only as part of the 'phase' bundle and is INACTIVE.
+track point spacing: 10717565 cached points, observed 2.00-60.00 voxels (limits 20-60; 6132613 mandatory-anchor exceptions; native)
+step 0: loss = 5288.4, umbilicus = 1.2, sym_dirichlet = 0.2, dense_normals = 35.2, min_spacing = 0.0, track_radius = 5251.8, track_dt = 0.0
+step 200: loss = 2944.0, umbilicus = 0.0, sym_dirichlet = 2.4, dense_normals = 18.0, min_spacing = 0.0, track_radius = 2923.7, track_dt = 0.0
+patch satisfaction: 0 patches, 0 quad centers, 0 forward + 0 inverse batches, 0.00s
+satisfied_patches = 0/0 (0.0%)
+satisfied_patches_area_weighted = 0.0/0.0 (0.0%)
+boundary_satisfied_patches = 0/0 (0.0%)
+satisfied_area = 0.0/0.0 (0.0%)
+satisfied_tracks = 211008/1473671 (14.3%)
+satisfied_track_points = 30759212/79967624 (38.5%)
+save_mesh fitted: winding range [10, 130)
+splice rasterization: 0 eligible quads, 0 vertex batches, 0.00s

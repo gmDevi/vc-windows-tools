@@ -1,0 +1,75 @@
+overrides: {"z_begin": 9000, "z_end": 10500, "optimizer_num_training_steps": 300, "input_disable_patches": true, "loss_weight_shell_outer": 0, "loss_weight_shell_patch_radius": 0, "dense_spacing_mode": "grad_mag", "loss_weight_dense_spacing": 0 , "input_use_tracks": true, "input_use_outer_shell": false}
+PROGRESS Loading umbilicus — elapsed 0s
+PROGRESS Loading fiber direction samples — elapsed 0s
+PROGRESS Loading point collections — 0/3 inputs (0.0%) — elapsed 0s
+PROGRESS Loading fiber point collections — elapsed 0s
+PROGRESS Linking points to patches — 0 collections, 0 patches — elapsed 0s
+scaled per-step counts by 0.158 for the 1500-slice z-range [9000, 10500) (reference 9500 slices):
+  sample_count_patches_per_step=57
+  sample_count_patches_per_step_for_dt=38
+  sample_count_unverified_patches_per_step=19
+  sample_count_unverified_patches_per_step_for_dt=13
+  sample_count_relative_winding_pcls=8
+  sample_count_absolute_winding_pcls=8
+  sample_count_unattached_pcls_per_step=13
+  sample_count_tracks_per_step=7579
+  sample_count_dense_normal_points=9474
+  sample_count_fiber_direction_points=9474
+  sample_count_dense_spacing_pairs=8000
+  sample_count_dense_spacing_density_extra_pairs=16000
+  sample_count_winding_model_relative_pairs=20211
+  sample_count_winding_model_density_pairs=20211
+  sample_count_dense_attachment_points=3158
+  sample_count_regularisation_points=711
+  sample_count_shell_samples=3880
+skipping all verified/unverified patch loading
+ loaded 0 patches
+ loaded 0 unverified patches
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/relative_windings.json
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/same_windings.json
+WARNING: point collection file not found, skipping: /home/mdevi/spiral_data/PHerc0125/drawn_control_points.json
+no fiber point collections found in /home/mdevi/spiral_data/PHerc0125/fibers
+linking points to patches: 0it [00:00, ?it/s]linking points to patches: 0it [00:00, ?it/s]
+PROGRESS Resolving track store — PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm — elapsed 0s
+fiber links: 0 resolved
+pcls: 0 cross-patch, 0 unattached
+  cross-patch sampling groups: 
+  unattached sampling groups: 
+loading tracks from /home/mdevi/spiral_data/PHerc0125/tracks/PHerc0125_20250821151825_surface_m7_L0_th0.2.dbm
+Traceback (most recent call last):
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4966, in <module>
+    main(
+    ~~~~^
+        FitConfig(config),
+        ^^^^^^^^^^^^^^^^^^
+    ...<14 lines>...
+        dist_context=dist_context,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4845, in main
+    ).run()
+      ~~~^^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4720, in run
+    self.load_host_inputs()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 1968, in load_host_inputs
+    track_crossing_cache = load_track_crossing_cache(self.tracks_dbm_path)
+  File "/home/mdevi/villa/spiral-fitting/tracks.py", line 1807, in load_track_crossing_cache
+    with np.load(cache_path, allow_pickle=False) as stored:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mdevi/villa/spiral-fitting/.venv/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 471, in load
+    ret = NpzFile(fid, own_fid=own_fid, allow_pickle=allow_pickle,
+                  pickle_kwargs=pickle_kwargs,
+                  max_header_size=max_header_size)
+  File "/home/mdevi/villa/spiral-fitting/.venv/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 197, in __init__
+    _zip = zipfile_factory(fid)
+  File "/home/mdevi/villa/spiral-fitting/.venv/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 112, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mdevi/.local/share/uv/python/cpython-3.14.3-linux-x86_64-gnu/lib/python3.14/zipfile/__init__.py", line 1471, in __init__
+    self._RealGetContents()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mdevi/.local/share/uv/python/cpython-3.14.3-linux-x86_64-gnu/lib/python3.14/zipfile/__init__.py", line 1538, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file

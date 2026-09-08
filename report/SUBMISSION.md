@@ -17,8 +17,9 @@ coding assistant (Claude) used for implementation.
 **What is your contribution?**
 
 (1) Scroll data: the 2025-2026 eligible scrolls, mainly PHerc1203 (2.4 um and
-9.36 um scans), PHerc0125 (9.36 um), PHerc0268 (8.64 um), plus the published
-auto-grown segments of PHerc0800 and PHerc1447; Paris 4 was used as the
+9.36 um scans), PHerc0125, PHerc0826 and PHerc0211 (9.36 um, fitted spiral
+meshes), PHerc0268 (8.64 um), plus the published auto-grown segments of
+PHerc0800 and PHerc1447; Paris 4 was used as the
 positive control.
 
 (2) How it raises the probability of reading these scrolls: it removes the
@@ -34,7 +35,13 @@ mesh unattended. It also makes the official spiral fitter usable under WSL2
 on Windows with a headless one-line recipe, documents two config traps that
 silently produce empty meshes (tracks off by default; the outer-shell input
 pulled in when tracks are enabled), and ships a renderer that turns fitted
-windings into ink maps from streamed S3 chunks in minutes. More people can
+windings into ink maps from streamed S3 chunks in minutes. The fitter side
+builds on the July/August Windows and consumer-GPU work by Nicolas
+Dolegieviez (villa PR 1268) and Shuhan Yang; what is new here is the
+downstream half (fitted winding to ink map with no local volume, whole-mesh
+sweeps with a calibrated noise ceiling) and the per-scroll inputs the fitter
+needs but the data does not ship: winding counts for eight track-ready
+scrolls and estimated umbilici for six of them. More people can
 therefore test more models on more sheets of more scrolls, which is how the
 first letters in a new scroll will be found.
 
@@ -54,7 +61,8 @@ at a coordinate from its own training config; the fitted PHerc0125 mesh
 renders clean continuous sheets (figure). Every sweep run is logged with
 per-render JSON scores and PNG previews in `results/`: PHerc1203 (2.4 um,
 three detectors, ~1 cm^2 of clean sheets), PHerc1203 9 um blocks, PHerc0125
-(two spiral meshes, 40+ windings over 5-8 mm bands), PHerc0268 (6 blocks), and
+(three spiral meshes over two z-bands, 67 windings), PHerc0826 (two meshes,
+44 windings), PHerc0211 (two meshes, 50 windings), PHerc0268 (6 blocks), and
 the 21 published PHerc0800/PHerc1447 segments. All negative, which is itself
 useful: it is the first systematic single-machine falsification of the
 current models on these scrolls, with a calibrated noise ceiling (frac>200 of

@@ -51,6 +51,16 @@ alone, with no local copy of a volume.
    is off by default, and enabling tracks pulls in an `outer_shell` input that
    must be disabled unless present.
 
+### 2.1 Relation to prior work
+
+The Windows and consumer-GPU side of the spiral fitter was opened up in the July and August 2026 progress prizes
+(Nicolas Dolegieviez, villa PR 1268: fit_spiral on Windows and loud failures for zeroed losses; Shuhan Yang,
+spiral-fit-consumer-gpu: 12 GB cards, no native vc extension). This toolkit does not duplicate those patches: it runs
+the stock fitter under WSL2 and adds what is needed after a fit exists. The new parts are the winding-to-ink-map
+renderer that streams only the chunks a winding touches, unattended whole-mesh sweeps with a calibrated noise
+ceiling, the per-scroll winding counts and estimated umbilici the fitter needs for scrolls without published ones,
+and the systematic negative results in section 4.
+
 ## 3. Validation
 
 | Test | Result |

@@ -14,7 +14,9 @@ coding assistant (Claude) used for implementation.
 **URL of your open source contribution.** https://github.com/gmDevi/vc-windows-tools
 (MIT license; commits, results, and figures included) and villa pull request
 https://github.com/ScrollPrize/villa/pull/1732 (fit_spiral: fit from tracks
-when the dataset has no outer shell)
+when the dataset has no outer shell) and
+https://github.com/ScrollPrize/villa/pull/1735 (fit_spiral: a truncated
+crossings cache no longer aborts the fit)
 
 **What is your contribution?**
 

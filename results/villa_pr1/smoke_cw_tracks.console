@@ -1,0 +1,45 @@
+overrides: {"z_begin": 9000, "z_end": 10500, "optimizer_num_training_steps": 300, "input_disable_patches": true, "loss_weight_shell_outer": 0, "loss_weight_shell_patch_radius": 0, "dense_spacing_mode": "grad_mag", "loss_weight_dense_spacing": 0 , "input_use_tracks": true}
+PROGRESS Loading umbilicus — elapsed 0s
+PROGRESS Loading fiber direction samples — elapsed 0s
+PROGRESS Loading outer shell — elapsed 0s
+scaled per-step counts by 0.158 for the 1500-slice z-range [9000, 10500) (reference 9500 slices):
+  sample_count_patches_per_step=57
+  sample_count_patches_per_step_for_dt=38
+  sample_count_unverified_patches_per_step=19
+  sample_count_unverified_patches_per_step_for_dt=13
+  sample_count_relative_winding_pcls=8
+  sample_count_absolute_winding_pcls=8
+  sample_count_unattached_pcls_per_step=13
+  sample_count_tracks_per_step=7579
+  sample_count_dense_normal_points=9474
+  sample_count_fiber_direction_points=9474
+  sample_count_dense_spacing_pairs=8000
+  sample_count_dense_spacing_density_extra_pairs=16000
+  sample_count_winding_model_relative_pairs=20211
+  sample_count_winding_model_density_pairs=20211
+  sample_count_dense_attachment_points=3158
+  sample_count_regularisation_points=711
+  sample_count_shell_samples=3880
+Traceback (most recent call last):
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4966, in <module>
+    main(
+    ~~~~^
+        FitConfig(config),
+        ^^^^^^^^^^^^^^^^^^
+    ...<14 lines>...
+        dist_context=dist_context,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4845, in main
+    ).run()
+      ~~~^^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 4720, in run
+    self.load_host_inputs()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mdevi/villa/spiral-fitting/fit_spiral.py", line 1563, in load_host_inputs
+    shell_patch = load_tifxyz(self.shell_path)
+  File "/home/mdevi/villa/spiral-fitting/tifxyz.py", line 362, in load_tifxyz
+    with open(f'{path}/meta.json', 'r') as meta_json:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/mdevi/spiral_data/PHerc0125/outer_shell/meta.json'

@@ -18,7 +18,8 @@ when the dataset has no outer shell) and
 https://github.com/ScrollPrize/villa/pull/1735 (fit_spiral: a truncated
 crossings cache no longer aborts the fit) and
 https://github.com/ScrollPrize/villa/pull/1736 (README recipe for tracks-only
-scrolls, umbilicus and winding-count estimators)
+scrolls, umbilicus and winding-count estimators). Browsable results and an
+in-browser scorer: https://huggingface.co/spaces/gmDevi/vesuvius-ink-sweeps
 
 **What is your contribution?**
 

@@ -4,9 +4,9 @@ Form: https://docs.google.com/forms/d/e/1FAIpQLScNBMj25FMnphngRG1Ciryv_2_Mkdq2YP
 
 **Email.** mdevincenzis@gmail.com
 
-**Your full name.** Marco De Vincenzi
+**Your full name.** Gennaro Marco Devincenzis
 
-**Team description.** Individual submission (Marco De Vincenzi), with an AI
+**Team description.** Individual submission (Gennaro Marco Devincenzis), with an AI
 coding assistant (Claude) used for implementation.
 
 **Discord display name.** hamiltonian

@@ -1,6 +1,6 @@
 # Single-GPU, Windows-native ink search on the 2025-2026 scans
 
-Marco De Vincenzi, September 2026. Hardware: one RTX 3090, 64 GB RAM, Windows 11
+Gennaro Marco Devincenzis, September 2026. Hardware: one RTX 3090, 64 GB RAM, Windows 11
 with WSL2. Everything below ran on that machine within one day, mostly
 unattended.
 

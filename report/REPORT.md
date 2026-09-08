@@ -77,7 +77,7 @@ which the fitter's own notes describe as normal). A sweep of the outer 20
 windings through the flat model over a 4.7 mm band found no letter-like
 structure (see `batch.log` in the results directory). Radial sheet counts
 give roughly 60-90 windings for this scroll, so the Scroll 1 default of 130
-was too high. A 30,000-step fit with 90 windings (track-radius loss 123 vs 182 at 10,000 steps with 130) renders clean continuous sheets, e.g. winding w089 over rows 20-60 (`pherc0125_w089_render.png`, 8 mm x 41 mm); its ink map is empty (`pherc0125_w089_ink.png`). The sweep of every third winding of that mesh (24 windings, 7.5 mm band, full circumference) is in `results/p0125_batch_acw30k`: all negative, max frac>200 0.0006.
+was too high. A 30,000-step fit with 90 windings (track-radius loss 123 vs 182 at 10,000 steps with 130) renders clean continuous sheets, e.g. winding w089 over rows 20-60 (`pherc0125_w089_render.png`, 8 mm x 41 mm); its ink map is empty (`pherc0125_w089_ink.png`). The sweep of every third winding of that mesh (24 windings, 7.5 mm band, full circumference) is in `results/p0125_batch_acw30k`: all negative, max frac>200 0.0006. A second 1.5 mm z-band 3.5 mm higher (slices 12500-14000) was fitted and swept the same way (`results/p0125_b2_batch`, 23 windings): all negative, max frac>200 0.0009; the innermost winding w021 gives a diffuse blotchy map with no letter forms (`w021_ink.png`).
 
 The negatives are consistent with the organizers' statement that ink remains
 elusive in the new scans with current models. What the toolkit adds is that a
@@ -100,6 +100,7 @@ For calibration, the Paris 4 control crop with clear letters has frac>200 = 0.01
 | PHerc0211, 10k-step spiral mesh (100 windings, 12.9% tracks), windings w021-w099 (every 3rd), rows 20-60 (7.5 mm band) | 54 renders | 8 | 0.0030 |
 | PHerc0826, 10k-step spiral mesh (100 windings, 12.9% tracks), windings w021-w099 (every 3rd), rows 20-60 (7.5 mm band) | 54 renders | 38 (w090, garbled render, see caveat); next 8 | 0.0114 (w090) / 0.0021 |
 | PHerc0125, 30k-step spiral mesh (90 windings), windings w020-w089 (every 3rd), rows 20-60 (7.5 mm band, full circumference) | 48 renders | 3 | 0.0006 |
+| PHerc0125, 30k-step spiral mesh (90 windings), second z-band (slices 12500-14000), windings w021-w087 (every 3rd), rows 20-60 (7.5 mm band) | 46 renders | 1 | 0.0009 |
 | PHerc0800 + PHerc1447, 21 published auto-grown segments | 42 renders | 2 | 0.0197 (edge artefacts) |
 
 All negative. Previews (`*_ink.png`) and per-render JSON scores are kept for every unit.

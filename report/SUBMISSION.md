@@ -16,7 +16,9 @@ coding assistant (Claude) used for implementation.
 https://github.com/ScrollPrize/villa/pull/1732 (fit_spiral: fit from tracks
 when the dataset has no outer shell) and
 https://github.com/ScrollPrize/villa/pull/1735 (fit_spiral: a truncated
-crossings cache no longer aborts the fit)
+crossings cache no longer aborts the fit) and
+https://github.com/ScrollPrize/villa/pull/1736 (README recipe for tracks-only
+scrolls, umbilicus and winding-count estimators)
 
 **What is your contribution?**
 

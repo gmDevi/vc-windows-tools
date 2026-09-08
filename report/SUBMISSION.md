@@ -12,7 +12,9 @@ coding assistant (Claude) used for implementation.
 **Discord display name.** hamiltonian
 
 **URL of your open source contribution.** https://github.com/gmDevi/vc-windows-tools
-(MIT license; commits, results, and figures included)
+(MIT license; commits, results, and figures included) and villa pull request
+https://github.com/ScrollPrize/villa/pull/1732 (fit_spiral: fit from tracks
+when the dataset has no outer shell)
 
 **What is your contribution?**
 

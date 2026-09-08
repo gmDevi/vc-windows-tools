@@ -1,0 +1,326 @@
+{
+ "w021": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999919871794872,
+  "textured_frac": 0.9852269115404236
+ },
+ "w021_reverse": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999919871794872,
+  "textured_frac": 0.9852269115404236
+ },
+ "w024": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999929428369795,
+  "textured_frac": 0.9819946976807646
+ },
+ "w024_reverse": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999929428369795,
+  "textured_frac": 0.9819946976807646
+ },
+ "w027": {
+  "frac200_inside": 0.0001282089439475076,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999915931063472,
+  "textured_frac": 0.9812440625814425
+ },
+ "w027_reverse": {
+  "frac200_inside": 0.00024039176990157675,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999915931063472,
+  "textured_frac": 0.9812440625814425
+ },
+ "w030": {
+  "frac200_inside": 9.016171733481963e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999924585218702,
+  "textured_frac": 0.9832106576972677
+ },
+ "w030_reverse": {
+  "frac200_inside": 1.2294779636566314e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999924585218702,
+  "textured_frac": 0.9832106576972677
+ },
+ "w033": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999707451385303,
+  "textured_frac": 0.9813555034306631
+ },
+ "w033_reverse": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999707451385303,
+  "textured_frac": 0.9813555034306631
+ },
+ "w036": {
+  "frac200_inside": 5.116782021674689e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999905615856536,
+  "textured_frac": 0.9816342454073815
+ },
+ "w036_reverse": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999905615856536,
+  "textured_frac": 0.9816342454073815
+ },
+ "w039": {
+  "frac200_inside": 1.4178810555336746e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999970862470863,
+  "textured_frac": 0.9815835710477012
+ },
+ "w039_reverse": {
+  "frac200_inside": 1.5754233950374162e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999970862470863,
+  "textured_frac": 0.9815835710477012
+ },
+ "w042": {
+  "frac200_inside": 1.4655665147362714e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999972866639534,
+  "textured_frac": 0.9815750415819877
+ },
+ "w042_reverse": {
+  "frac200_inside": 1.3190098632626442e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999972866639534,
+  "textured_frac": 0.9815750415819877
+ },
+ "w045": {
+  "frac200_inside": 0.0,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999924213717317,
+  "textured_frac": 0.9757229434604784
+ },
+ "w045_reverse": {
+  "frac200_inside": 4.503582395087001e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999924213717317,
+  "textured_frac": 0.9757229434604784
+ },
+ "w048": {
+  "frac200_inside": 2.8209395780387288e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999916904083571,
+  "textured_frac": 0.9736963626240959
+ },
+ "w048_reverse": {
+  "frac200_inside": 4.872531998430532e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999916904083571,
+  "textured_frac": 0.9736963626240959
+ },
+ "w051": {
+  "frac200_inside": 1.5652994779124203e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999910813823857,
+  "textured_frac": 0.9701981734508223
+ },
+ "w051_reverse": {
+  "frac200_inside": 3.0101913036777313e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999910813823857,
+  "textured_frac": 0.9701981734508223
+ },
+ "w054": {
+  "frac200_inside": 7.952873543630032e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999957792550385,
+  "textured_frac": 0.9771023619388496
+ },
+ "w054_reverse": {
+  "frac200_inside": 0.00035787930946335145,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999957792550385,
+  "textured_frac": 0.9771023619388496
+ },
+ "w057": {
+  "frac200_inside": 2.159484401504297e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999889823717949,
+  "textured_frac": 0.971623285112316
+ },
+ "w057_reverse": {
+  "frac200_inside": 7.12629852496418e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999889823717949,
+  "textured_frac": 0.971623285112316
+ },
+ "w060": {
+  "frac200_inside": 2.2489644540945465e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999962013295347,
+  "textured_frac": 0.967114784861481
+ },
+ "w060_reverse": {
+  "frac200_inside": 6.133539420257854e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999962013295347,
+  "textured_frac": 0.967114784861481
+ },
+ "w063": {
+  "frac200_inside": 2.92203143521418e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999990939566912,
+  "textured_frac": 0.9781797392223786
+ },
+ "w063_reverse": {
+  "frac200_inside": 0.00023473652529553912,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999990939566912,
+  "textured_frac": 0.9781797392223786
+ },
+ "w066": {
+  "frac200_inside": 1.8564982544275163e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.99999740999741,
+  "textured_frac": 0.9855330713970597
+ },
+ "w066_reverse": {
+  "frac200_inside": 0.00015687410249912512,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.99999740999741,
+  "textured_frac": 0.9855330713970597
+ },
+ "w069": {
+  "frac200_inside": 2.8453549580310145e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999942100909843,
+  "textured_frac": 0.9851231562134768
+ },
+ "w069_reverse": {
+  "frac200_inside": 0.00024807938540332905,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999942100909843,
+  "textured_frac": 0.9851231562134768
+ },
+ "w072": {
+  "frac200_inside": 4.523029473937536e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999944431213781,
+  "textured_frac": 0.9886305631610242
+ },
+ "w072_reverse": {
+  "frac200_inside": 9.472759841642765e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999944431213781,
+  "textured_frac": 0.9886305631610242
+ },
+ "w075": {
+  "frac200_inside": 4.249400589359174e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.99999695655482,
+  "textured_frac": 0.9866331480884063
+ },
+ "w075_reverse": {
+  "frac200_inside": 8.171924210306103e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.99999695655482,
+  "textured_frac": 0.9866331480884063
+ },
+ "w078": {
+  "frac200_inside": 0.00022975337705991212,
+  "blobs_letterlike_robust": 1,
+  "inside_frac": 0.9999941391941392,
+  "textured_frac": 0.9842592484058514
+ },
+ "w078_reverse": {
+  "frac200_inside": 0.00037767678420807475,
+  "blobs_letterlike_robust": 2,
+  "inside_frac": 0.9999941391941392,
+  "textured_frac": 0.9842592484058514
+ },
+ "w081": {
+  "frac200_inside": 8.919581656502374e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999837982530291,
+  "textured_frac": 0.9805096870405762
+ },
+ "w081_reverse": {
+  "frac200_inside": 3.7794837527552437e-06,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999837982530291,
+  "textured_frac": 0.9805096870405762
+ },
+ "w084": {
+  "frac200_inside": 0.00028909667509621957,
+  "blobs_letterlike_robust": 1,
+  "inside_frac": 0.9999972794667755,
+  "textured_frac": 0.9830496716307464
+ },
+ "w084_reverse": {
+  "frac200_inside": 0.00010366597945369488,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999972794667755,
+  "textured_frac": 0.9830496716307464
+ },
+ "w087": {
+  "frac200_inside": 5.9252905508545114e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.9999973701512163,
+  "textured_frac": 0.9866403330449258
+ },
+ "w087_reverse": {
+  "frac200_inside": 0.00015941853148727616,
+  "blobs_letterlike_robust": 1,
+  "inside_frac": 0.9999973701512163,
+  "textured_frac": 0.9866403330449258
+ },
+ "w090": {
+  "frac200_inside": 0.0003951537795437064,
+  "blobs_letterlike_robust": 2,
+  "inside_frac": 0.999988575780655,
+  "textured_frac": 0.9811130109381803
+ },
+ "w090_reverse": {
+  "frac200_inside": 4.360317567378829e-05,
+  "blobs_letterlike_robust": 0,
+  "inside_frac": 0.999988575780655,
+  "textured_frac": 0.9811130109381803
+ },
+ "w093": {
+  "frac200_inside": 0.0003720436874278918,
+  "blobs_letterlike_robust": 1,
+  "inside_frac": 0.9999938510729878,
+  "textured_frac": 0.9819736947284925
+ },
+ "w093_reverse": {
+  "frac200_inside": 0.001064018559966648,
+  "blobs_letterlike_robust": 6,
+  "inside_frac": 0.9999938510729878,
+  "textured_frac": 0.9819736947284925
+ },
+ "w096": {
+  "frac200_inside": 0.0003266062232519391,
+  "blobs_letterlike_robust": 2,
+  "inside_frac": 0.9999958355642811,
+  "textured_frac": 0.9390698872563572
+ },
+ "w096_reverse": {
+  "frac200_inside": 0.0006149382797165415,
+  "blobs_letterlike_robust": 4,
+  "inside_frac": 0.9999958355642811,
+  "textured_frac": 0.9390698872563572
+ },
+ "w099": {
+  "frac200_inside": 0.0003394473079288821,
+  "blobs_letterlike_robust": 2,
+  "inside_frac": 0.9999959574959575,
+  "textured_frac": 0.9788657034303095
+ },
+ "w099_reverse": {
+  "frac200_inside": 0.00030352040307509527,
+  "blobs_letterlike_robust": 1,
+  "inside_frac": 0.9999959574959575,
+  "textured_frac": 0.9788657034303095
+ }
+}

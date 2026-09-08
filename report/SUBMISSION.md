@@ -9,7 +9,7 @@ Form: https://docs.google.com/forms/d/e/1FAIpQLScNBMj25FMnphngRG1Ciryv_2_Mkdq2YP
 **Team description.** Individual submission (Marco De Vincenzi), with an AI
 coding assistant (Claude) used for implementation.
 
-**Discord display name.** (fill after joining https://discord.gg/V4fJhvtaQn)
+**Discord display name.** hamiltonian
 
 **URL of your open source contribution.** https://github.com/gmDevi/vc-windows-tools
 (MIT license; commits, results, and figures included)

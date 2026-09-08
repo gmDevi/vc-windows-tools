@@ -1,6 +1,6 @@
 # Submission checklist (progress prize, deadline 30 Sep 2026, 23:59 Pacific)
 
-Everything below except two steps is already done in this repository.
+Everything below except step 3 (the form) is already done in this repository.
 
 ## 1. Publish the repository (one-time authorisation is yours)
 
@@ -17,10 +17,9 @@ gh repo create vc-windows-tools --public --source . --remote origin --descriptio
 Repository: https://github.com/gmDevi/vc-windows-tools (done). The URL is in `report/SUBMISSION.md` (Links line) and
 into the form.
 
-## 2. Discord
+## 2. Discord (done: display name `hamiltonian`)
 
-Join the Vesuvius Challenge Discord (link on scrollprize.org) and note your
-handle; the form asks for it. Announcing the tool in the `#progress-prizes` or
+Joined; the handle is in `report/SUBMISSION.md`. Announcing the tool in the `#progress-prizes` or
 tooling channel after submission is encouraged by the organizers (early
 release counts).
 

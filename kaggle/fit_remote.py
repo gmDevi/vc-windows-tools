@@ -22,8 +22,10 @@ def get(url, dst, tries=6):
             time.sleep(10)
     raise SystemExit(f"download failed: {url}")
 
+# 0. internet check (Kaggle only enables it for phone-verified accounts)
+sh("curl -fsS -m 20 https://github.com -o /dev/null")
 # 1. toolchain: uv + Python 3.14 + spiral-fitting (native helpers build with the image's gcc)
-sh("curl -LsSf https://astral.sh/uv/install.sh | sh")
+sh("curl -fsSL https://astral.sh/uv/install.sh -o /tmp/uv.sh && sh /tmp/uv.sh")  # no pipe: a failed download must fail the step
 os.environ["PATH"] = f"{HOME}/.local/bin:" + os.environ["PATH"]
 if not os.path.isdir(f"{TMP}/villa"):
     sh(f"git clone --depth 1 https://github.com/ScrollPrize/villa.git {TMP}/villa")
@@ -42,8 +44,14 @@ json.dump({"schema_version": 1, "name": S, "voxel_size_um": 9.362, "spiral_outwa
            "lasagna_scale": 4, "paths": {"tracks_dbm": f"tracks/{N}.dbm"}}, open(f"{D}/spiral-scroll.json", "w"), indent=1)
 get("https://raw.githubusercontent.com/gmDevi/vc-windows-tools/master/wsl/fetch_lasagna_slab2.py", f"{TMP}/fetch_lasagna_slab2.py")
 z0, z1 = JOB["z0"], JOB["z1"]
-sh(f"cd {TMP} && uv run --python 3.12 --with 'zarr>=2.18,<3' --with fsspec --with aiohttp --with requests --with numcodecs --with numpy "
-   f"python fetch_lasagna_slab2.py {S} {V} {JOB['lasagna_run']} 2 {z0//4-50} {z1//4+50} {D}/lasagna_inputs")
+for attempt in range(6):  # the slab copier resumes; retry on dropped connections
+    r = subprocess.run(f"cd {TMP} && uv run --python 3.12 --with 'zarr>=2.18,<3' --with fsspec --with aiohttp --with requests --with numcodecs --with numpy "
+                       f"python fetch_lasagna_slab2.py {S} {V} {JOB['lasagna_run']} 2 {z0//4-50} {z1//4+50} {D}/lasagna_inputs", shell=True, executable="/bin/bash")
+    print(f"lasagna fetch attempt {attempt+1}: rc={r.returncode}", flush=True)
+    if r.returncode == 0: break
+    time.sleep(30)
+else:
+    raise SystemExit("lasagna fetch failed after 6 attempts")
 sh(f"du -sh {D}/tracks {D}/lasagna_inputs; df -h {TMP} {WORK}")
 
 # 3. fit (headless CLI; overrides as JSON in the environment, see spiral-fitting/README.md)

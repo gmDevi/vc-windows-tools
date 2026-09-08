@@ -41,8 +41,9 @@ single-machine falsification of the current models on the eligible scrolls:
 PHerc1203 (2.4 um, three detectors), PHerc0125 (three meshes, 67 windings),
 PHerc0826 (44 windings), PHerc0211 (50 windings), PHerc0358 (27 windings,
 where high blob counts trace to a crushed region), PHerc0268 (6 blocks), the
-21 published PHerc0800/PHerc1447 segments, and the remote fits of PHerc0813,
-PHerc0191 and PHerc0257 (results appended in the repo as they land). Third,
+21 published PHerc0800/PHerc1447 segments, and PHerc0813 (46 renders, max
+frac>200 0.0013), PHerc0191 (54 renders, 0.0011) and PHerc0257 (46 renders,
+0.0023), the last three fitted and swept on free Kaggle T4 GPUs. Third,
 the per-scroll inputs the fitter needs but the data does not ship: winding
 counts for eight track-ready scrolls (the fitter's Scroll 1 default of 130 is
 wrong for them; PHerc0125 has about 60, PHerc0826 about 55) and estimated

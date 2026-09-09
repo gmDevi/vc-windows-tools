@@ -117,6 +117,8 @@ For calibration, the Paris 4 control crop with clear letters has frac>200 = 0.01
 | PHerc0257, 30k-step spiral mesh (90 windings, estimated umbilicus, 51.7% tracks), windings w021-w099 (every 3rd), rows 20-60 (7.5 mm band) | 46 renders | 4 (w039; robust rescoring 3) | 0.0023 |
 | PHerc0813, 30k-step spiral mesh (80 windings, ACW, estimated umbilicus, Kaggle T4), windings w021-w087 (every 3rd), rows 20-60 (7.5 mm band) | 46 renders | 2 (robust rescoring 4 at w078 reverse) | 0.0013 |
 | PHerc0191, 30k-step spiral mesh (100 windings, CW, estimated umbilicus, Kaggle T4), windings w021-w099 (every 3rd), rows 20-60 (7.5 mm band) | 54 renders | 5 (w093; robust rescoring 6, reverse direction) | 0.0011 |
+| PHerc0358, 30k-step spiral mesh, second z-band (slices 9500-11000, 100 windings, CW, estimated umbilicus, 47.4% track points, Kaggle T4), windings w021-w099 (every 3rd), rows 20-60 (7.5 mm band) | 54 renders | 8 (w066; diffuse blotches, no letter forms) | 0.0034 (w042 reverse) |
+| PHerc0257, 30k-step spiral mesh, second z-band (slices 11500-13000, 90 windings, CW, estimated umbilicus, 48.8% track points, Kaggle T4), windings w021-w087 (every 3rd), rows 20-60 (7.5 mm band) | 46 renders | 3 (w057) | 0.0013 |
 | PHerc0800 + PHerc1447, 21 published auto-grown segments | 42 renders | 2 | 0.0197 (edge artefacts) |
 
 All negative. Previews (`*_ink.png`) and per-render JSON scores are kept for every unit.

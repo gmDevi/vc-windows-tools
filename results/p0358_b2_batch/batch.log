@@ -1,0 +1,31 @@
+mesh input: /kaggle/input/notebooks/epsilonijk/vesuvius-spiral-fit-0358b/meshes_PHerc0358_b2_cw30k_w100 exists
+checkpoint /root/.cache/huggingface/hub/models--scrollprize--ink_9um/snapshots/7109667e2607db1b90c37c8b09cb876ea7fe7bb1/hybrid_3d2d-seed42/step-075000.pth
+windings 27
+w099: best letter-like blobs 1, frac200 0.00052, 834s
+w096: best letter-like blobs 3, frac200 0.00060, 773s
+w093: best letter-like blobs 2, frac200 0.00049, 730s
+w090: best letter-like blobs 4, frac200 0.00097, 709s
+w087: best letter-like blobs 1, frac200 0.00068, 666s
+w084: best letter-like blobs 2, frac200 0.00054, 633s
+w081: best letter-like blobs 4, frac200 0.00153, 638s
+w078: best letter-like blobs 2, frac200 0.00081, 586s
+w075: best letter-like blobs 4, frac200 0.00125, 553s
+w072: best letter-like blobs 6, frac200 0.00251, 540s
+w069: best letter-like blobs 6, frac200 0.00208, 516s
+w066: best letter-like blobs 8, frac200 0.00179, 489s
+w063: best letter-like blobs 2, frac200 0.00101, 461s
+w060: best letter-like blobs 3, frac200 0.00177, 425s
+w057: best letter-like blobs 2, frac200 0.00078, 403s
+w054: best letter-like blobs 5, frac200 0.00218, 397s
+w051: best letter-like blobs 0, frac200 0.00003, 375s
+w048: best letter-like blobs 1, frac200 0.00068, 293s
+w045: best letter-like blobs 3, frac200 0.00204, 263s
+w042: best letter-like blobs 7, frac200 0.00337, 244s
+w039: best letter-like blobs 2, frac200 0.00195, 222s
+w036: best letter-like blobs 0, frac200 0.00018, 202s
+w033: best letter-like blobs 1, frac200 0.00135, 183s
+w030: best letter-like blobs 2, frac200 0.00143, 148s
+w027: best letter-like blobs 0, frac200 0.00021, 136s
+w024: best letter-like blobs 1, frac200 0.00058, 119s
+w021: best letter-like blobs 2, frac200 0.00170, 105s
+DONE [('w066', 8), ('w042', 7), ('w072', 6), ('w069', 6), ('w054', 5), ('w090', 4), ('w081', 4), ('w075', 4)]

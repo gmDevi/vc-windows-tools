@@ -133,6 +133,6 @@ speckle ceiling was inspected by eye against its render; none showed strokes or 
 
 See the top-level README for the environment. The exact commands used for
 every figure are in `tools/README.md`; the sweeps are `tools/sweep.py` and
-`tools/batch_windings.py`; the WSL fit is `wsl/run_fit.sh <dataset> <out> 9000
+Every scored render across all batches is indexed in `results/INDEX.md` (one row per batch with the calibrated verdict and an eye-check note) and `results/sweep_index.csv` (one row per render), produced by `tools/sweep_index.py`. `tools/batch_windings.py`; the WSL fit is `wsl/run_fit.sh <dataset> <out> 9000
 10500 30000 ACW ', "input_use_tracks": true, "input_use_outer_shell": false,
 "shell_outer_winding_idx": 90, "model_gap_expander_num_windings": 90'`.

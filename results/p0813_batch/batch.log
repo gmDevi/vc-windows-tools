@@ -25,3 +25,53 @@ w027: best letter-like blobs 0, frac200 0.00001, 113s
 w024: best letter-like blobs 0, frac200 0.00027, 100s
 w021: best letter-like blobs 0, frac200 0.00013, 89s
 DONE [('w063', 2), ('w051', 2), ('w042', 2), ('w084', 1), ('w081', 1), ('w078', 1), ('w075', 1), ('w072', 1)]
+windings 23
+w022: best letter-like blobs 0, frac200 0.00000, 258s
+w025: best letter-like blobs 0, frac200 0.00020, 110s
+w028: best letter-like blobs 0, frac200 0.00010, 143s
+w031: best letter-like blobs 0, frac200 0.00012, 249s
+w034: best letter-like blobs 1, frac200 0.00048, 246s
+w037: best letter-like blobs 0, frac200 0.00019, 210s
+w040: best letter-like blobs 3, frac200 0.00099, 204s
+w043: best letter-like blobs 2, frac200 0.00110, 315s
+w046: best letter-like blobs 0, frac200 0.00015, 219s
+w049: best letter-like blobs 2, frac200 0.00063, 204s
+w052: best letter-like blobs 0, frac200 0.00022, 374s
+w055: best letter-like blobs 2, frac200 0.00103, 384s
+w058: best letter-like blobs 1, frac200 0.00032, 529s
+w061: best letter-like blobs 1, frac200 0.00029, 685s
+w064: best letter-like blobs 1, frac200 0.00021, 566s
+w067: best letter-like blobs 0, frac200 0.00028, 767s
+w070: best letter-like blobs 1, frac200 0.00040, 449s
+w073: best letter-like blobs 0, frac200 0.00014, 461s
+w076: best letter-like blobs 1, frac200 0.00015, 495s
+w079: best letter-like blobs 2, frac200 0.00034, 407s
+w082: best letter-like blobs 1, frac200 0.00024, 516s
+w085: best letter-like blobs 0, frac200 0.00012, 479s
+w088: best letter-like blobs 1, frac200 0.00010, 492s
+DONE [('w040', 3), ('w043', 2), ('w049', 2), ('w055', 2), ('w079', 2), ('w034', 1), ('w058', 1), ('w061', 1)]
+windings 23
+w023: best letter-like blobs 0, frac200 0.00000, 84s
+w026: best letter-like blobs 0, frac200 0.00002, 90s
+w029: best letter-like blobs 0, frac200 0.00000, 101s
+w032: best letter-like blobs 0, frac200 0.00021, 104s
+w035: best letter-like blobs 0, frac200 0.00028, 109s
+w038: best letter-like blobs 1, frac200 0.00035, 129s
+w041: best letter-like blobs 2, frac200 0.00080, 127s
+w044: best letter-like blobs 0, frac200 0.00015, 131s
+w047: best letter-like blobs 0, frac200 0.00005, 144s
+w050: best letter-like blobs 0, frac200 0.00006, 147s
+w053: best letter-like blobs 0, frac200 0.00004, 158s
+w056: best letter-like blobs 1, frac200 0.00025, 165s
+w059: best letter-like blobs 0, frac200 0.00040, 243s
+w062: best letter-like blobs 1, frac200 0.00045, 205s
+w065: best letter-like blobs 1, frac200 0.00037, 204s
+w068: best letter-like blobs 1, frac200 0.00069, 244s
+w071: best letter-like blobs 2, frac200 0.00058, 288s
+w074: best letter-like blobs 1, frac200 0.00025, 227s
+w077: best letter-like blobs 2, frac200 0.00066, 253s
+w080: best letter-like blobs 0, frac200 0.00019, 263s
+w083: best letter-like blobs 2, frac200 0.00025, 276s
+w086: best letter-like blobs 0, frac200 0.00009, 269s
+w089: best letter-like blobs 2, frac200 0.00046, 390s
+DONE [('w041', 2), ('w071', 2), ('w077', 2), ('w083', 2), ('w089', 2), ('w038', 1), ('w056', 1), ('w062', 1)]

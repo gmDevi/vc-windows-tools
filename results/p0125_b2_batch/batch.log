@@ -23,3 +23,90 @@ w027: best letter-like blobs 0, frac200 0.00019, 129s
 w024: best letter-like blobs 1, frac200 0.00035, 118s
 w021: best letter-like blobs 1, frac200 0.00087, 97s
 DONE [('w081', 1), ('w054', 1), ('w051', 1), ('w048', 1), ('w036', 1), ('w024', 1), ('w021', 1), ('w087', 0)]
+windings 23
+w022: best letter-like blobs 0, frac200 0.00004, 301s
+w025: best letter-like blobs 0, frac200 0.00006, 184s
+w028: best letter-like blobs 0, frac200 0.00007, 156s
+w031: best letter-like blobs 0, frac200 0.00000, 141s
+w034: best letter-like blobs 0, frac200 0.00000, 149s
+w037: best letter-like blobs 0, frac200 0.00014, 177s
+w040: best letter-like blobs 0, frac200 0.00000, 216s
+w043: best letter-like blobs 0, frac200 0.00003, 207s
+w046: best letter-like blobs 0, frac200 0.00000, 213s
+w049: best letter-like blobs 1, frac200 0.00015, 243s
+w052: best letter-like blobs 0, frac200 0.00000, 268s
+w055: best letter-like blobs 1, frac200 0.00012, 332s
+w058: best letter-like blobs 1, frac200 0.00012, 306s
+w061: best letter-like blobs 1, frac200 0.00016, 433s
+w064: best letter-like blobs 0, frac200 0.00000, 316s
+w067: best letter-like blobs 1, frac200 0.00010, 286s
+w070: best letter-like blobs 0, frac200 0.00001, 286s
+w073: best letter-like blobs 0, frac200 0.00005, 310s
+w076: best letter-like blobs 0, frac200 0.00001, 311s
+w079: best letter-like blobs 1, frac200 0.00031, 334s
+w082: best letter-like blobs 0, frac200 0.00006, 383s
+w085 render failed ead.py", line 73, in run
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\storage\_local.py", line 85, in _put
+    return f.write(view)
+           ^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+
+w088 render failed ead.py", line 73, in run
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\storage\_local.py", line 85, in _put
+    return f.write(view)
+           ^^^^^^^^^^^^^
+OSError: [Errno 28] No space left on device
+
+DONE [('w049', 1), ('w055', 1), ('w058', 1), ('w061', 1), ('w067', 1), ('w079', 1), ('w022', 0), ('w025', 0)]
+windings 23
+w023 render failed none\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\storage\_local.py", line 85, in _put
+    return f.write(view)
+           ~~~~~~~^^^^^^
+OSError: [Errno 28] No space left on device
+
+w026 render failed none\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\storage\_local.py", line 85, in _put
+    return f.write(view)
+           ~~~~~~~^^^^^^
+OSError: [Errno 28] No space left on device
+
+w029 render failed  name='Task-62' coro=<concurrent_map.<locals>.run() running at C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\core\common.py:106> cb=[gather.<locals>._done_callback() at C:\Users\mdevi\AppData\Roaming\uv\python\cpython-3.14.3-windows-x86_64-none\Lib\asyncio\tasks.py:810]>
+
+w032 render failed )
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\mdevi\AppData\Roaming\uv\python\cpython-3.14.3-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 205, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+
+w035 render failed \cpython-3.14.3-windows-x86_64-none\Lib\concurrent\futures\thread.py", line 205, in submit
+    raise RuntimeError('cannot schedule new futures after shutdown')
+RuntimeError: cannot schedule new futures after shutdown
+<sys>:0: RuntimeWarning: coroutine 'concurrent_map.<locals>.run' was never awaited
+
+w038 render failed  name='Task-70' coro=<concurrent_map.<locals>.run() running at C:\Users\mdevi\prize\vesuvius\villa\vesuvius\.venv\Lib\site-packages\zarr\core\common.py:106> cb=[gather.<locals>._done_callback() at C:\Users\mdevi\AppData\Roaming\uv\python\cpython-3.14.3-windows-x86_64-none\Lib\asyncio\tasks.py:810]>
+
+w041: best letter-like blobs 1, frac200 0.00026, 139s
+w044: best letter-like blobs 0, frac200 0.00010, 146s
+w047: best letter-like blobs 0, frac200 0.00000, 159s
+w050: best letter-like blobs 0, frac200 0.00002, 162s
+w053: best letter-like blobs 1, frac200 0.00027, 172s
+w056: best letter-like blobs 0, frac200 0.00015, 185s
+w059: best letter-like blobs 0, frac200 0.00004, 196s
+w062: best letter-like blobs 0, frac200 0.00001, 207s
+w065: best letter-like blobs 0, frac200 0.00000, 218s
+w068: best letter-like blobs 0, frac200 0.00006, 230s
+w071: best letter-like blobs 0, frac200 0.00004, 244s
+w074: best letter-like blobs 0, frac200 0.00002, 253s
+w077: best letter-like blobs 1, frac200 0.00016, 264s
+w080: best letter-like blobs 1, frac200 0.00013, 277s
+w083: best letter-like blobs 1, frac200 0.00014, 293s
+w086: best letter-like blobs 0, frac200 0.00018, 330s
+w089: best letter-like blobs 1, frac200 0.00020, 382s
+DONE [('w041', 1), ('w053', 1), ('w077', 1), ('w080', 1), ('w083', 1), ('w089', 1), ('w044', 0), ('w047', 0)]

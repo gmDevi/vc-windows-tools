@@ -1,0 +1,1 @@
+{"multiscales": [{"axes": [{"name": "z", "type": "space"}, {"name": "y", "type": "space"}, {"name": "x", "type": "space"}], "datasets": [{"path": "0"}], "version": "0.4"}], "tifxyz": "C:/Users/mdevi/prize/vesuvius/data/PHerc0125/meshes_b2_acw30k_w90\\w029", "rows": [20, 60], "cols": [0, 138]}

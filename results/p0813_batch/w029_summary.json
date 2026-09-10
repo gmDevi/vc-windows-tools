@@ -1,0 +1,14 @@
+{
+ "ink": {
+  "mean": 89.01847501654507,
+  "frac200": 0.0,
+  "blobs_letterlike": 0,
+  "p999": 187.0
+ },
+ "ink_reverse": {
+  "mean": 87.5909221563145,
+  "frac200": 0.0,
+  "blobs_letterlike": 0,
+  "p999": 187.0
+ }
+}

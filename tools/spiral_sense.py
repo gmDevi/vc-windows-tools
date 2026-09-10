@@ -1,11 +1,11 @@
 """Estimate the spiral outward sense (CW/ACW, visual, y-down image coords) from one cross-section of the surface prediction.
 Polar-transform around the umbilicus; sheets become lines r(theta); the sign of the dominant slope dr/dtheta gives the sense."""
-import sys, json, numpy as np, zarr, fsspec
+import os, sys, json, numpy as np, zarr, fsspec
 from scipy import ndimage as ndi
 from PIL import Image
 scroll, vol, surf_rel, umb_url, z0 = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], int(sys.argv[5])
 B = "https://vesuvius-challenge-open-data.s3.amazonaws.com/"
-umb = json.loads(fsspec.open(B + umb_url).open().read())['control_points']
+umb = json.loads(open(umb_url).read() if os.path.exists(umb_url) else fsspec.open(B + umb_url).open().read())['control_points']
 zs = np.array([p['z'] for p in umb]); xs = np.array([p['x'] for p in umb]); ys = np.array([p['y'] for p in umb])
 o = np.argsort(zs); cx = np.interp(z0, zs[o], xs[o]); cy = np.interp(z0, zs[o], ys[o])
 lvl = 2; f = 4

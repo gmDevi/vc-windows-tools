@@ -1,0 +1,32 @@
+windings 30
+w011: best letter-like blobs 0, frac200 0.00005, 91s
+w014: best letter-like blobs 0, frac200 0.00000, 79s
+w017: best letter-like blobs 0, frac200 0.00000, 79s
+w020: best letter-like blobs 0, frac200 0.00001, 95s
+w023: best letter-like blobs 0, frac200 0.00000, 153s
+w026: best letter-like blobs 0, frac200 0.00001, 161s
+w029: best letter-like blobs 0, frac200 0.00005, 131s
+w032: best letter-like blobs 1, frac200 0.00036, 143s
+w035: best letter-like blobs 0, frac200 0.00038, 146s
+w038: best letter-like blobs 1, frac200 0.00043, 155s
+w041: best letter-like blobs 2, frac200 0.00055, 173s
+w044: best letter-like blobs 1, frac200 0.00044, 177s
+w047: best letter-like blobs 0, frac200 0.00030, 187s
+w050: best letter-like blobs 2, frac200 0.00055, 202s
+w053: best letter-like blobs 2, frac200 0.00137, 211s
+w056: best letter-like blobs 4, frac200 0.00105, 212s
+w059: best letter-like blobs 5, frac200 0.00136, 233s
+w062: best letter-like blobs 4, frac200 0.00114, 255s
+w065: best letter-like blobs 2, frac200 0.00079, 274s
+w068: best letter-like blobs 5, frac200 0.00132, 296s
+w071: best letter-like blobs 0, frac200 0.00000, 280s
+w074 render failed 
+w077 render failed 
+w080 render failed 
+w083 render failed 
+w086 render failed 
+w089 render failed 
+w092 render failed 
+w095 render failed 
+w098 render failed 
+DONE [('w059', 5), ('w068', 5), ('w056', 4), ('w062', 4), ('w041', 2), ('w050', 2), ('w053', 2), ('w065', 2)]

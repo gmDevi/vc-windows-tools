@@ -23,7 +23,7 @@ def verdict(f):
     return "letters-like" if f >= LETTERS else ("inspect" if f >= SPECKLE else "negative")
 
 def scroll_of(name):
-    m = re.search(r"p(\d{4})", name) or re.search(r"PHerc(\d{4})", name)
+    m = re.search(r"p(\d{4}[AB]?)", name) or re.search(r"PHerc(\d{4}[AB]?)", name)   # 0175A and 0175B are different scrolls
     return "PHerc" + m.group(1) if m else name
 
 rows, batches = [], []

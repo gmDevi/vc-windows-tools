@@ -1,0 +1,21 @@
+windings 18
+windings 18
+w011: best letter-like blobs 0, frac200 0.00065, 126s
+w016: best letter-like blobs 0, frac200 0.00003, 90s
+w021: best letter-like blobs 0, frac200 0.00007, 113s
+w026: best letter-like blobs 1, frac200 0.00073, 407s
+w031: best letter-like blobs 0, frac200 0.00006, 241s
+w036: best letter-like blobs 0, frac200 0.00006, 211s
+w041: best letter-like blobs 0, frac200 0.00020, 232s
+w046: best letter-like blobs 3, frac200 0.00106, 274s
+w051: best letter-like blobs 1, frac200 0.00024, 333s
+w056: best letter-like blobs 1, frac200 0.00053, 362s
+w061: best letter-like blobs 4, frac200 0.00127, 444s
+w066: best letter-like blobs 2, frac200 0.00070, 409s
+w071: best letter-like blobs 5, frac200 0.00122, 421s
+w076: best letter-like blobs 1, frac200 0.00063, 403s
+w081: best letter-like blobs 0, frac200 0.00002, 375s
+w086: best letter-like blobs 2, frac200 0.00053, 469s
+w091: best letter-like blobs 1, frac200 0.00026, 584s
+w096: best letter-like blobs 3, frac200 0.00091, 724s
+DONE [('w071', 5), ('w061', 4), ('w046', 3), ('w096', 3), ('w066', 2), ('w086', 2), ('w026', 1), ('w051', 1)]
